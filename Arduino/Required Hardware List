@@ -1,0 +1,9 @@
+This is the hardware list that run this sketch.
+
+- Arduino Pro 3.3v ATmega328, 8Mhz.
+- BLESerial2 (for BLE Connection with iPhone/Smartphone)
+- Adafruit_SI1145 (for measuring UV Index)
+- SparkFun TSL2561 (for measuring light (Lux))
+- Adafruit BME280 (for measuring temperture, humidity and pressure)
+- MPU9520 (for measuring motion of the sensor)
+
