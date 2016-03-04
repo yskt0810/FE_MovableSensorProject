@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Xcode 7.0">
+    <entity name="ImageData" representedClassName="ImageData" syncable="YES">
+        <attribute name="barometer" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="filename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="humidity" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="light" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="temperture" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="useradd" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="useraddtype" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SensorLog" representedClassName="SensorLog" syncable="YES">
+        <attribute name="accx" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="accy" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="accz" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="barometer" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="gyrox" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="gyroy" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="gyroz" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="humidity" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="light" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mgtx" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mgty" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mgtz" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="temperture" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="useradd" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="useraddtype" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ImageData" positionX="-45" positionY="0" width="128" height="195"/>
+        <element name="SensorLog" positionX="-45" positionY="72" width="128" height="315"/>
+    </elements>
+</model>
