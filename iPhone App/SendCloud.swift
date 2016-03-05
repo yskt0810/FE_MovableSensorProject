@@ -44,7 +44,7 @@ class SendCloud:NSObject,NSURLSessionDelegate,NSURLSessionDataDelegate{
     func SendSensorToServer(PeripheralUUID:String, SensorData: String){
         
         
-        ServerUrl = NSURL(string: "https://ysklab.sakura.ne.jp/test/test.php")!
+        ServerUrl = NSURL(string: "<ENTER THE URL FOR YOUR PHP PROGRAM>")!
         
         ServerRequest = NSMutableURLRequest(URL: ServerUrl)
         ServerRequest.HTTPMethod = "POST"
